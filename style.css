@@ -91,9 +91,9 @@ main {
     width: 100%;
 }
 .section-2 {
-    margin: 0 16px;
+    margin: 0px 16px;
     display: flex;
-    overflow: auto scroll;
+    overflow: scroll;
     gap: 20px;
     border-radius: 12px;
 }
@@ -128,7 +128,7 @@ main {
     margin-top: 16px;
     width: 100%;
     display: flex;
-    overflow: auto scroll;
+    overflow: scroll;
     gap: 20px;
 }
 .product-card {
@@ -267,7 +267,7 @@ td:hover{
 }
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
     #hero-section{
         display: none !important;
     }
@@ -276,7 +276,7 @@ td:hover{
         align-items: center !important;
         margin: auto;
     }
-    #my-footer-row-2,#footer__table__1,#footer__table__2,#footer__row__2__col2{
+    #my-footer-row-2, #footer__table__1, #footer__table__2,#footer__row__2__col2{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -307,4 +307,4 @@ td:hover{
         padding-bottom: 20px;
         position: static;
     }
-
+}
